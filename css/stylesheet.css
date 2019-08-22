@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #787878
+}
+
+header{
+	background-color: #000000;
+	text-align: left;
+	padding: 20px 0px;
+}
+
+#home{
+	background-image: url("../img/hero-home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 10% 0;
+	color: #ffffff;
+}
+
+#home h1{
+	font-size: 60px;
+	font-weight: 300;
+	
+}
+
+#home h1 span{
+	display: block;
+	font-weight: 700;
+}
+
+#home p{
+	font-size: 20px;
+}
+
+#home .btn-light{
+	border-radius: 0;
+	padding: 15px 40px;
+}
+
+#home .btn-light:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.btn{
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+#designs{
+	background-color: #f2f2f2;
+	text-align:center;
+	font-size: 14px;
+	color: #999999;
+	padding: 50px 0px;
+}
+
+.titulo{
+	padding-top: 80px;
+	font-weight: 300;
+	font-size: 40px;
+	color: #222222;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.subtitulo{
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 80px;
+	color: #808080;
+	text-align: center;
+	
+}
+
+#designs h6{
+	color: #222222;
+	font-size: 12px;
+}
+
+#designs p{
+	font-size: 16px;
+	padding-bottom: 50px
+	
+}
+
+#recen-work h6{
+	color: #222222;
+	font-size: 12px;
+}
+
+#recen-work p{
+	font-size: 16px;
+	padding-bottom: 50px
+	
+}
+
+.btn-success{
+	border-radius: 0;
+	padding: 15px 40px;
+	margin: 30px 0px;
+	text-align: center;
+	background-color: #01A88C;
+}
+
+.btn-success:hover{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+#recen-work p{
+	text-align: center;
+}
+
+#what-we h6{
+	font-size: 14px;
+	padding-top: 80px;
+}
+
+p{
+	font-size: 16px;
+}
+.right{
+	text-align: right;
+}
+
+.slide-overlay{
+	position : absolute;
+	top: 0;
+	left: 0;
+	width: 100% ;
+	height: 100%;
+	background-color :rgba(0,0,0,0.55);
+}
+
